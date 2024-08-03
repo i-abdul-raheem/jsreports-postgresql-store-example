@@ -1,4 +1,5 @@
-const { createDriverTemplate, generateDriverReport, jsreport } = require("./drivers");
+const { jsreport } = require("./jsreport");
+const { createDriverTemplate, generateDriverReport } = require("./drivers");
 
 const runJsReport = () => {
   jsreport
@@ -13,6 +14,5 @@ const runJsReport = () => {
       console.error("Failed to initialize JSReports:", err);
     });
 };
-
 
 module.exports = { createDriverTemplate, generateDriverReport, runJsReport };

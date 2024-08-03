@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const { generateDriverReport, runJsReport } = require("./handlers");
 app.use(cors());
 require("dotenv").config();
+const { generateDriverReport, runJsReport } = require("./handlers");
 
 app.get("/drivers", (req, res) => generateDriverReport(req, res));
 

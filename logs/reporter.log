@@ -1488,3 +1488,146 @@ Error: Unable to find specified template (DriverReport)
 2024-08-03T16:34:04.040Z - info: 2 worker threads initialized in 316ms
 2024-08-03T16:34:04.040Z - info: Starting temp files cleanup with 180000ms threshold
 2024-08-03T16:34:04.041Z - info: reporter initialized
+2024-08-03T16:42:16.951Z - info: Initializing jsreport (version: 4.5.0, configuration file: none, nodejs: 21.7.1)
+2024-08-03T16:42:16.953Z - info: Searching for available extensions in /Users/abdulraheem/Documents/jsreports-postgresql-store-example/
+2024-08-03T16:42:16.956Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/abdulraheem/Documents/jsreports-postgresql-store-example/
+2024-08-03T16:42:16.961Z - info: Found 36 extension(s)
+2024-08-03T16:42:17.024Z - debug: Writing extension locations cache to /var/folders/5w/bpmv7bvd169_gwsmzhtd2lch0000gn/T/jsreport/core/locations.json
+2024-08-03T16:42:17.026Z - debug: Discovered 36 extensions
+2024-08-03T16:42:17.026Z - warn: Filtering out duplicated extension "postgres-store" from /Users/abdulraheem/Documents/jsreports-postgresql-store-example/node_modules/@jsreport/jsreport-postgres-store, using /Users/abdulraheem/Documents/jsreports-postgresql-store-example/node_modules/@jsreport/jsreport-postgres-store
+2024-08-03T16:42:17.059Z - info: Using extension authentication@4.2.0
+2024-08-03T16:42:17.142Z - debug: Extension authentication@4.2.0 was disabled
+2024-08-03T16:42:17.142Z - info: Using extension base@4.0.0
+2024-08-03T16:42:17.145Z - info: Using extension child-templates@4.1.0
+2024-08-03T16:42:17.146Z - info: Using extension cli@4.0.4
+2024-08-03T16:42:17.147Z - info: Using extension components@4.0.2
+2024-08-03T16:42:17.147Z - info: Using extension data@4.1.0
+2024-08-03T16:42:17.149Z - info: Using extension express@4.1.2
+2024-08-03T16:42:17.263Z - info: Using extension freeze@4.0.0
+2024-08-03T16:42:17.264Z - info: Using extension fs-store@4.0.4
+2024-08-03T16:42:17.311Z - debug: Extension fs-store@4.0.4 was disabled
+2024-08-03T16:42:17.311Z - info: Using extension handlebars@4.0.1
+2024-08-03T16:42:17.312Z - info: Using extension import-export@4.0.4
+2024-08-03T16:42:17.317Z - info: Using extension jsrender@4.0.0
+2024-08-03T16:42:17.318Z - info: Using extension licensing@4.0.2
+2024-08-03T16:42:17.337Z - info: Using extension localization@4.0.1
+2024-08-03T16:42:17.337Z - info: Using extension npm@4.0.0
+2024-08-03T16:42:17.338Z - info: Using extension pdf-utils@4.2.1
+2024-08-03T16:42:17.339Z - info: Using extension postgres-store@4.0.0
+2024-08-03T16:42:17.340Z - debug: Extension postgres-store@4.0.0 was disabled
+2024-08-03T16:42:17.340Z - info: Using extension reports@4.1.2
+2024-08-03T16:42:17.341Z - info: Using extension tags@4.0.1
+2024-08-03T16:42:17.341Z - info: Using extension text@4.0.1
+2024-08-03T16:42:17.342Z - info: Using extension version-control@4.0.0
+2024-08-03T16:42:17.345Z - info: Using extension assets@4.1.1
+2024-08-03T16:42:17.350Z - info: Using extension authorization@4.0.0
+2024-08-03T16:42:17.352Z - debug: Extension authorization@4.0.0 was disabled
+2024-08-03T16:42:17.352Z - info: Using extension browser-client@4.1.0
+2024-08-03T16:42:17.353Z - info: Using extension chrome-pdf@4.1.0
+2024-08-03T16:42:17.354Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2024-08-03T16:42:17.354Z - info: Using extension docx@4.4.0
+2024-08-03T16:42:17.355Z - info: Using extension html-to-xlsx@4.1.2
+2024-08-03T16:42:17.596Z - info: html-to-xlsx detected chrome as available html engine
+2024-08-03T16:42:17.597Z - info: Using extension pptx@4.3.0
+2024-08-03T16:42:17.598Z - info: Using extension scheduling@4.0.0
+2024-08-03T16:42:17.613Z - info: Using extension scripts@4.1.0
+2024-08-03T16:42:17.613Z - info: Using extension static-pdf@4.1.0
+2024-08-03T16:42:17.614Z - info: Using extension studio@4.1.1
+2024-08-03T16:42:17.650Z - info: Using extension xlsx@4.1.1
+2024-08-03T16:42:17.651Z - info: Using extension public-templates@4.0.0
+2024-08-03T16:42:17.651Z - debug: Extension public-templates@4.0.0 was disabled
+2024-08-03T16:42:17.651Z - info: Using extension sample-template@4.0.0
+2024-08-03T16:42:17.652Z - info: Using extension studio-theme-dark@4.0.0
+2024-08-03T16:42:17.653Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-08-03T16:42:17.653Z - info: Using memory provider for template store. The saved templates will be lost after restart
+2024-08-03T16:42:17.658Z - debug: studio default theme is: light
+2024-08-03T16:42:17.659Z - info: Creating default express app.
+2024-08-03T16:42:17.672Z - info: jsreport server successfully started on http port: 5488
+2024-08-03T16:42:17.675Z - info: Verifying license key free
+2024-08-03T16:42:17.675Z - info: Using free license
+2024-08-03T16:42:17.678Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2024-08-03T16:42:17.679Z - info: Migration successful
+2024-08-03T16:42:17.679Z - debug: Creating samples is disabled
+2024-08-03T16:42:17.679Z - info: Initializing worker threads
+2024-08-03T16:42:17.679Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2024-08-03T16:42:17.954Z - info: 2 worker threads initialized in 275ms
+2024-08-03T16:42:17.955Z - info: Starting temp files cleanup with 180000ms threshold
+2024-08-03T16:42:17.955Z - info: reporter initialized
+2024-08-03T16:42:57.114Z - info: Initializing jsreport (version: 4.5.0, configuration file: none, nodejs: 21.7.1)
+2024-08-03T16:42:57.118Z - info: Searching for available extensions in /Users/abdulraheem/Documents/jsreports-postgresql-store-example/
+2024-08-03T16:42:57.121Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/abdulraheem/Documents/jsreports-postgresql-store-example/
+2024-08-03T16:42:57.129Z - info: Found 36 extension(s)
+2024-08-03T16:42:57.146Z - debug: Writing extension locations cache to /var/folders/5w/bpmv7bvd169_gwsmzhtd2lch0000gn/T/jsreport/core/locations.json
+2024-08-03T16:42:57.147Z - debug: Discovered 36 extensions
+2024-08-03T16:42:57.148Z - warn: Filtering out duplicated extension "postgres-store" from /Users/abdulraheem/Documents/jsreports-postgresql-store-example/node_modules/@jsreport/jsreport-postgres-store, using /Users/abdulraheem/Documents/jsreports-postgresql-store-example/node_modules/@jsreport/jsreport-postgres-store
+2024-08-03T16:42:57.174Z - info: Using extension authentication@4.2.0
+2024-08-03T16:42:57.254Z - debug: Extension authentication@4.2.0 was disabled
+2024-08-03T16:42:57.254Z - info: Using extension base@4.0.0
+2024-08-03T16:42:57.257Z - info: Using extension child-templates@4.1.0
+2024-08-03T16:42:57.257Z - info: Using extension cli@4.0.4
+2024-08-03T16:42:57.258Z - info: Using extension components@4.0.2
+2024-08-03T16:42:57.259Z - info: Using extension data@4.1.0
+2024-08-03T16:42:57.259Z - info: Using extension express@4.1.2
+2024-08-03T16:42:57.370Z - info: Using extension freeze@4.0.0
+2024-08-03T16:42:57.371Z - info: Using extension fs-store@4.0.4
+2024-08-03T16:42:57.421Z - debug: Extension fs-store@4.0.4 was disabled
+2024-08-03T16:42:57.421Z - info: Using extension handlebars@4.0.1
+2024-08-03T16:42:57.422Z - info: Using extension import-export@4.0.4
+2024-08-03T16:42:57.427Z - info: Using extension jsrender@4.0.0
+2024-08-03T16:42:57.427Z - info: Using extension licensing@4.0.2
+2024-08-03T16:42:57.449Z - info: Using extension localization@4.0.1
+2024-08-03T16:42:57.450Z - info: Using extension npm@4.0.0
+2024-08-03T16:42:57.454Z - info: Using extension pdf-utils@4.2.1
+2024-08-03T16:42:57.455Z - info: Using extension postgres-store@4.0.0
+2024-08-03T16:42:57.456Z - debug: Extension postgres-store@4.0.0 was disabled
+2024-08-03T16:42:57.456Z - info: Using extension reports@4.1.2
+2024-08-03T16:42:57.457Z - info: Using extension tags@4.0.1
+2024-08-03T16:42:57.458Z - info: Using extension text@4.0.1
+2024-08-03T16:42:57.458Z - info: Using extension version-control@4.0.0
+2024-08-03T16:42:57.460Z - info: Using extension assets@4.1.1
+2024-08-03T16:42:57.465Z - info: Using extension authorization@4.0.0
+2024-08-03T16:42:57.467Z - debug: Extension authorization@4.0.0 was disabled
+2024-08-03T16:42:57.467Z - info: Using extension browser-client@4.1.0
+2024-08-03T16:42:57.469Z - info: Using extension chrome-pdf@4.1.0
+2024-08-03T16:42:57.470Z - debug: Chrome strategy is chrome-pool, numberOfWorkers: 1
+2024-08-03T16:42:57.470Z - info: Using extension docx@4.4.0
+2024-08-03T16:42:57.471Z - info: Using extension html-to-xlsx@4.1.2
+2024-08-03T16:42:57.690Z - info: html-to-xlsx detected chrome as available html engine
+2024-08-03T16:42:57.690Z - info: Using extension pptx@4.3.0
+2024-08-03T16:42:57.691Z - info: Using extension scheduling@4.0.0
+2024-08-03T16:42:57.707Z - info: Using extension scripts@4.1.0
+2024-08-03T16:42:57.708Z - info: Using extension static-pdf@4.1.0
+2024-08-03T16:42:57.708Z - info: Using extension studio@4.1.1
+2024-08-03T16:42:57.741Z - info: Using extension xlsx@4.1.1
+2024-08-03T16:42:57.742Z - info: Using extension public-templates@4.0.0
+2024-08-03T16:42:57.745Z - debug: Extension public-templates@4.0.0 was disabled
+2024-08-03T16:42:57.745Z - info: Using extension sample-template@4.0.0
+2024-08-03T16:42:57.746Z - info: Using extension studio-theme-dark@4.0.0
+2024-08-03T16:42:57.749Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-08-03T16:42:57.749Z - info: Using memory provider for template store. The saved templates will be lost after restart
+2024-08-03T16:42:57.759Z - debug: studio default theme is: light
+2024-08-03T16:42:57.761Z - info: Creating default express app.
+2024-08-03T16:42:57.773Z - info: jsreport server successfully started on http port: 5488
+2024-08-03T16:42:57.774Z - info: Verifying license key free
+2024-08-03T16:42:57.774Z - info: Using free license
+2024-08-03T16:42:57.779Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2024-08-03T16:42:57.780Z - info: Migration successful
+2024-08-03T16:42:57.780Z - debug: Creating samples is disabled
+2024-08-03T16:42:57.782Z - info: Initializing worker threads
+2024-08-03T16:42:57.783Z - debug: Extensions in workers: base, child-templates, components, data, express, handlebars, jsrender, localization, npm, pdf-utils, reports, text, version-control, assets, browser-client, chrome-pdf, docx, html-to-xlsx, pptx, scripts, static-pdf, studio, xlsx
+2024-08-03T16:42:58.092Z - info: 2 worker threads initialized in 310ms
+2024-08-03T16:42:58.092Z - info: Starting temp files cleanup with 180000ms threshold
+2024-08-03T16:42:58.093Z - info: reporter initialized
+2024-08-03T16:43:03.699Z - info: Render request 1 queued for execution and waiting for available worker rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:03.789Z - info: Starting rendering request 1 rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:03.790Z - info: Rendering template { name: DriverReport, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:03.791Z - debug: Inline data specified. rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:03.791Z - debug: Base url not specified, skipping its injection. rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:03.791Z - debug: Rendering engine handlebars rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:04.221Z - debug: Executing recipe chrome-pdf rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:06.140Z - debug: Converting with chrome Chrome/126.0.6478.61 using chrome-pool strategy rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:07.153Z - debug: Page request: GET (document) file:///var/folders/5w/bpmv7bvd169_gwsmzhtd2lch0000gn/T/jsreport/autocleanup/894616e3-c272-4454-bbf9-8c3dc69819fd-chrome-pdf.html rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:07.155Z - debug: Page request finished: GET (document) 200 file:///var/folders/5w/bpmv7bvd169_gwsmzhtd2lch0000gn/T/jsreport/autocleanup/894616e3-c272-4454-bbf9-8c3dc69819fd-chrome-pdf.html rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:07.156Z - debug: Running chrome with params {"timeout":59532,"margin":{},"printBackground":true} rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:07.314Z - debug: Skipping storing report. rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
+2024-08-03T16:43:07.314Z - info: Rendering request 1 finished in 3617 ms rootId=hzhw9of6yl28i1d, id=hzhw9of6yl28i1d
